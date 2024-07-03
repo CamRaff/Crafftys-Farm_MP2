@@ -15,6 +15,10 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 - [Design and Development](#design-and-development)
 
     - [Wireframes](#wireframes)
+        
+        - [Desktop](#desktop)
+
+        - [Mobile](#mobile)
 
 ---
 
@@ -74,3 +78,5 @@ As I decided to keep the home page relatively basic, that will be displayed the 
 - #### Info Page
 
 <img src="assets/images/wireframes/Animal Info Mobile.png" alt="wireframe for the mobile version of the info page" height="600"/>
+
+The mobile versions once more don't change much, it is mostly just a shift from a horizontal display to more of a vertical display.

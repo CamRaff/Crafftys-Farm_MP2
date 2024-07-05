@@ -22,9 +22,13 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 
     - [Images](#images)
 
-        -[Background](#background)
+        - [Background](#background)
 
-        -[Game Tiles](#game-tiles)
+        - [Game Tiles](#game-tiles)
+
+        - [Info Pages](#info-pages)
+
+        - [Favicons](#favicons)
 
 ---
 
@@ -127,3 +131,6 @@ Left image belongs to [Julie Aagaard](https://www.pexels.com/@julieaagaard/). Ri
 
 Left image belongs to [Brett Sayles](https://www.pexels.com/@brett-sayles/). Right image belongs to [Barbara Barbosa](https://www.pexels.com/@barbara-barbosa-2859157/).
 
+### Favicons
+
+The title image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 

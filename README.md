@@ -30,6 +30,12 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 
         - [Favicons](#favicons)
 
+    - [Fonts](#fonts)
+
+        - [Margarine](#margarine)
+
+        - [LXGW](#lxgw-wenkai-mono-tc)
+
 ---
 
 # User Experience (UX)
@@ -134,3 +140,21 @@ Left image belongs to [Brett Sayles](https://www.pexels.com/@brett-sayles/). Rig
 ### Favicons
 
 The title image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 
+
+## Fonts
+
+For the font on the site, I decided to go with something that was quite rounded on the edges and soft on the eyes, as it is designed for children. I didn't want the ltters and words to be too sharp. I got this idea when doing a bit of research on childrens sites and I came across the [Pepaa Pig](https://www.peppapig.com/en-us) website. 
+
+After taking a look at the fonts available on [Google Fonts](https://fonts.google.com), I decided upon two different fonts, one to be used for headers and in the navigation bar, and one for body text. 
+
+## Margarine
+
+<img src="assets/images/margarine.png" alt="the font Margarine, acquired from Google Fonts" height="100">
+
+I chose the font [Margarine](https://fonts.google.com/specimen/Margarine?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the headers and navigation bars as it is very soft but also stands out very well.
+
+### LXGW WenKai Mono TC
+
+<img src="assets/images/lxgw.png" alt="the font LXGW WenKai Mono TC, acquired from Google Fonts" height="100">
+
+I chose the font [LXGW WenKai Mono TC](https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the body text as it is a bit easier to read over long periods than Margarine, yet it still has a soft and rounded feel.

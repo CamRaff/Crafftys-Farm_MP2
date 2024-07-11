@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Body styling */
+
 body {
     background-image: url('../images/background.webp');
     background-repeat: no-repeat;
@@ -13,7 +15,11 @@ body {
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
+
+/* Header styling */
 
 header {
     font-family: "Margarine", sans-serif;
@@ -24,8 +30,7 @@ header {
     padding: 25px;
     border-radius:10px;
     box-sizing:border-box;
-    width:100%;
-    /* max-width:1500px; */
+    max-width:2000px;
     overflow:hidden;
 }
 
@@ -73,21 +78,62 @@ header a {
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 420px) {
     #logo {
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }    
 
     #menu {
         text-align: center;
         float: none;
         margin-top: 20px;
-        /* font-size: 1.2rem; */
     }
 
     #menu li {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0 px;
     }
 }
+
+/* Footer styling */
+
+footer {
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(0, 150, 255, .5);
+    margin: 5px;
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 2000px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    bottom: 5px;
+}
+
+footer p {
+    color:white;
+    font-size: 1.2rem;
+    float:left;
+}
+
+footer a {
+    color:white;
+    margin-left:10px;
+}
+
+/* #github {
+    color: white;
+    font-size: 1.5rem;
+    float:right;
+    margin: 5px
+    text-decoration: none;
+}
+
+footer p, #github {
+    line-height: 60px;
+} */

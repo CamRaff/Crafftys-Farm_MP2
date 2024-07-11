@@ -24,7 +24,8 @@ header {
     padding: 25px;
     border-radius:10px;
     box-sizing:border-box;
-    max-width:1200px;
+    /* width:100%; */
+    max-width:1500px;
     overflow:hidden;
 }
 
@@ -72,7 +73,7 @@ header a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     #logo {
         text-align: center;
         font-size: 1.7rem;

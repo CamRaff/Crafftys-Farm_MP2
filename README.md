@@ -147,7 +147,7 @@ For the font on the site, I decided to go with something that was quite rounded 
 
 After taking a look at the fonts available on [Google Fonts](https://fonts.google.com), I decided upon two different fonts, one to be used for headers and in the navigation bar, and one for body text. 
 
-## Margarine
+### Margarine
 
 <img src="assets/images/margarine.png" alt="the font Margarine, acquired from Google Fonts" height="100">
 

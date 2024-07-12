@@ -62,8 +62,12 @@ header a {
     list-style-type: none;
 }
 
+#menu a:hover {
+    color: rgb(94, 244, 114);
+}
+
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(94, 244, 114);
 }
 
 @media screen and (max-width: 700px) {
@@ -78,10 +82,10 @@ header a {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     #logo {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }    
 
     #menu {
@@ -91,7 +95,7 @@ header a {
     }
 
     #menu li {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin: 0 px;
     }
 }
@@ -102,7 +106,7 @@ footer {
     font-family: "Margarine", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(0, 150, 255, .5);
+    background-color: rgba(0, 150, 255, .7);
     margin: 5px;
     padding: 25px;
     border-radius: 10px;
@@ -126,14 +130,83 @@ footer a {
     margin-left:10px;
 }
 
-/* #github {
-    color: white;
-    font-size: 1.5rem;
-    float:right;
-    margin: 5px
-    text-decoration: none;
+footer a:hover {
+    color: rgb(94, 244, 114);
 }
 
-footer p, #github {
-    line-height: 60px;
-} */
+/* Home main styling */
+
+#homewrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 2000px;
+    overflow: hidden;
+}
+
+#siteinfo {
+    background-color: rgba(0, 150, 255, .7);
+    margin: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding:20px;
+}
+
+#siteinfo h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+#siteinfo p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#enter {
+    background-color: rgba(0, 150, 255, .7);
+    color:white;
+    font-family: "LXGW WenKai Mono TC", monospace;;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    /* position:relative; */
+    /* align-self: center; */
+}
+
+#enter:hover {
+    border:2px solid rgb(94, 244, 114);
+    color: rgb(94, 244, 114);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    #siteinfo h2 {
+        font-size: 1.5rem;
+    }
+
+    #siteinfo p {
+        font-size: 1.2rem;
+    }
+
+    #enter {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #siteinfo h2 {
+        font-size: 1.2rem;
+    }
+
+    #siteinfo p {
+        font-size: 1rem;
+    }
+
+    #enter {
+        font-size: 1rem;
+    }
+}

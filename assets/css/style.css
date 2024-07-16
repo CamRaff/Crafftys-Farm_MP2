@@ -32,6 +32,7 @@ header {
     box-sizing:border-box;
     max-width:2000px;
     overflow:hidden;
+    margin-bottom:50px;
 }
 
 header a {
@@ -80,6 +81,10 @@ header a {
         float: none;
         margin-top: 30px
     }
+
+    header {
+        margin-bottom:auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -113,7 +118,7 @@ footer {
     box-sizing: border-box;
     max-width: 2000px;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     text-align: center;
     align-self: center;
     bottom: 5px;
@@ -134,6 +139,13 @@ footer a:hover {
     color: rgb(94, 244, 114);
 }
 
+@media screen and (max-width: 700px) {
+    footer p {
+        font-size: 1rem;
+        position:relative;
+    }
+}
+
 /* Home main styling */
 
 #homewrapper {
@@ -152,16 +164,19 @@ footer a:hover {
     border-radius: 10px;
     box-sizing: border-box;
     text-align: center;
+    width: 90%;
     padding:20px;
 }
 
 #siteinfo h2 {
     font-size: 2rem;
+    margin-bottom:10px;
     color: white;
 }
 
 #siteinfo p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom:10px;
     color: white;
 }
 
@@ -169,12 +184,11 @@ footer a:hover {
     background-color: rgba(0, 150, 255, .7);
     color:white;
     font-family: "LXGW WenKai Mono TC", monospace;;
+    margin-top:50px;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: none;
     border-radius: 10px;
-    /* position:relative; */
-    /* align-self: center; */
 }
 
 #enter:hover {
@@ -194,6 +208,7 @@ footer a:hover {
 
     #enter {
         font-size: 1.2rem;
+        margin-top:20px;
     }
 }
 
@@ -203,10 +218,122 @@ footer a:hover {
     }
 
     #siteinfo p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     #enter {
         font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+/* Animal page styling */
+
+.animalwrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+/* #cowwrapper button {
+    top:75%;
+    align-self:center;
+} */
+
+/* #backtofarm {
+    background-color: rgba(0, 150, 255, .7);
+    color:white;
+    font-family: "LXGW WenKai Mono TC", monospace;;
+    margin-top:50px;
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    align-self:center
+} */
+
+.realanimalone {
+    height:400px;
+    border-radius:10px;
+    width:30%;
+    margin: 25px;
+    float:left;
+}
+
+.realanimaltwo {
+    height:400px;
+    border-radius:10px;
+    width:33%;
+    margin: 25px;
+    float:right;
+}
+
+.animalinfo {
+    background-color: rgba(0, 150, 255, .7);
+    margin: 25px;
+    width:33%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding:20px;
+}
+
+.animalinfo h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.animalinfo p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btf {
+    width:fit-content;
+    align-self:center;
+}
+
+.backtofarm {
+    background-color: rgba(0, 150, 255, .7);
+    color:white;
+    font-family: "LXGW WenKai Mono TC", monospace;;
+    margin-top:50px;
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    bottom:10px;
+}
+
+@media screen and (max-width: 700px) {
+    .animalwrapper {
+        flex-direction: column;
+    }
+
+    .animalinfo {
+        width: 80%;
+    }
+
+    .realanimalone {
+        width: 80%;
+        height: 300px;
+    }
+
+    .realanimaltwo {
+        display: none;
+    }
+
+    .btf {
+        width: 80%;
+    }
+
+    .backtofarm {
+        font-size: 1.2rem;
+        margin-top: 20px;
     }
 }

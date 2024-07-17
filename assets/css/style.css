@@ -143,8 +143,8 @@ footer {
     overflow: hidden;
     text-align: center;
     align-self: center;
-    position: absolute;
-    bottom:0;
+    /* position: absolute; */
+    /* bottom: 25px; */
 }
 
 footer p {
@@ -180,6 +180,7 @@ footer a:hover {
     margin: 0 auto;
     max-width: 2000px;
     overflow: hidden;
+    /* height:fit-content; */
 }
 
 #siteinfo {
@@ -209,8 +210,7 @@ footer a:hover {
 #enter {
     background-color: rgba(0, 150, 255, .7);
     color:white;
-    font-family: "LXGW WenKai Mono TC", monospace;;
-    margin-top:50px;
+    font-family: "LXGW WenKai Mono TC", monospace;
     padding: 10px;
     font-size: 2rem;
     border: none;
@@ -266,6 +266,20 @@ footer a:hover {
     }
 }
 
+@media screen and (max-width: 380px) {
+    #siteinfo h2 {
+        font-size: 1.2rem;
+    }
+
+    #siteinfo p {
+        font-size:1rem;
+    }
+    
+    #enter {
+        margin: 0 auto;
+    }
+}
+
 /* Animal page styling */
 
 .animalwrapper {
@@ -296,7 +310,7 @@ footer a:hover {
 
 .animalinfo {
     background-color: rgba(0, 150, 255, .7);
-    margin: 25px;
+    /* margin: 25px; */
     height:370px;
     width:33%;
     border-radius: 10px;
@@ -304,6 +318,7 @@ footer a:hover {
     text-align: center;
     padding:20px;
     overflow:scroll;
+    scrollbar-color: white transparent;
     margin-top:-3px;
 }
 
@@ -324,6 +339,7 @@ footer a:hover {
     width:fit-content;
     align-self:center;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .backtofarm {

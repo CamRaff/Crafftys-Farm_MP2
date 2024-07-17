@@ -143,8 +143,8 @@ footer {
     overflow: hidden;
     text-align: center;
     align-self: center;
-    /* position: absolute; */
-    /* bottom: 25px; */
+    position: absolute;
+    bottom:0;
 }
 
 footer p {
@@ -443,6 +443,39 @@ footer a:hover {
 
     .animalinfo p {
         font-size: 1.1rem;
+    }
+
+    .realanimalone {
+        width: 70%;
+        height: 70%;
+    }
+
+    .realanimaltwo {
+        display: none;
+    }
+
+    .backtofarm {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .animalwrapper {
+        flex-direction: column;
+    }
+
+    .animalinfo {
+        width: 80%;
+        height: 180px;
+    }
+
+    .animalinfo h2 {
+        font-size: 1.2rem;
+    }
+
+    .animalinfo p {
+        font-size: 1rem;
     }
 
     .realanimalone {

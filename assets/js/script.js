@@ -153,11 +153,11 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.win-popup').style.visibility = 'visible';
 
             if (id == 0) {
-                document.querySelector('.animal-link').setAttribute('href', "/chicken.html");
+                document.querySelector('.animal-link').setAttribute('href', "chicken.html");
             } else if (id == 1) {
-                document.querySelector('.animal-link').setAttribute('href', "/cow.html");
+                document.querySelector('.animal-link').setAttribute('href', "cow.html");
             } else {
-                document.querySelector('.animal-link').setAttribute('href', "/pig.html");
+                document.querySelector('.animal-link').setAttribute('href', "pig.html");
             }
         }
 

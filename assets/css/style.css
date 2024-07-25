@@ -505,7 +505,7 @@ footer a:hover {
 
 .gamewrapper img {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     border-radius: 10px;
     /* margin:  */
     /* margin: 0 auto; */
@@ -515,47 +515,27 @@ footer a:hover {
 .gamearea-div {
     display: flex;
     flex-direction: column;
-    /* align-self: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* padding: 10px; */
     background-color: rgba(200, 200, 200, 0.5);
     border-radius: 10px;
     height: 40rem;
     width: 1000px;
-    /* overflow: hidden; */
 }
 
 .animal-cards {
     position: relative;;
     display: grid;
-    /* top:50px; */
-    /* margin: 0 auto; */
     grid-template-columns: repeat(3, 100%);
     grid-gap: .8em;
     grid-template-rows: repeat(2, 100%);
     width:max-content;
-    /* align-self: center; */
-    /* align-items: center; */
-    /* width: 100px; */
-    /* height: 100px; */
 }
 
 .card {
+    margin-top: 20px;
     padding: 50px;
-    /* margin: 0 auto; */
     cursor: pointer;
-    align-self:center;
-    perspective: 1000px;
+    perspective: 500px;
 }
-
-/* .card-front {
-    padding:50px;
-    cursor:pointer;
-    align-self:center;
-    perspective:1000px;
-} */
 
 .card-inner {
     position: relative;
@@ -564,7 +544,11 @@ footer a:hover {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    /* display:hidden; */
+    display:hidden;
+}
+
+.card-revealed {
+    transform: rotateY(180deg);
 }
 
 .card.click .card-inner {
@@ -578,6 +562,22 @@ footer a:hover {
     backface-visibility: hidden;
 }
 
-/* .card.click .card-inner {
-    transform: rotateY(180deg);
-} */
+.win-popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #00000073;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.win-popup-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}

@@ -29,10 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardRevealed = document.createElement('div');
         cardRevealed.classList.add('card-revealed');
 
-        cardInner.appendChild(cardFront);
+        
         cardInner.appendChild(cardRevealed);
 
         card.appendChild(cardInner);
+
+        cardInner.appendChild(cardFront);
 
         // Adding the barn image to the card front
 
@@ -43,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Setting the dimensions of the barn image
 
-        const cardFrontImageDimensions = { width:'100%', height: '100%' };
+        const cardFrontImageDimensions = { width:'200px', height: '200px' };
 
         Object.assign(cardFrontImage.style, cardFrontImageDimensions);
 
@@ -84,9 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function checkIfCardsMatch(card) {
-
         // Check if user has clicked a matched card
-
         if (card.classList.contains('disabledcard') || card.classList.contains('click')) {
             return;
         }
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // If second card clicked was not the same 
 
-        if (tempFlippedCards.length > 0 && tempFlippedCards[0].id !== card.id) {
+        if (tempFlippedCards.length > 0 && tempFlippedCards[0] !== card.id) {
             tempFlippedCards= [];
 
             setTimeout(function() {
@@ -119,6 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (tempFlippedCards.length > 0 && tempFlippedCards.includes(card.id)) {
+            console.log('tempFlippedCards', tempFlippedCards);
+            console.log('card', card);
             tempFlippedCards = [];
             setTimeout(function() {
                 markAsMatched(card.id);
@@ -136,9 +138,32 @@ document.addEventListener('DOMContentLoaded', function() {
                     card.classList = ['card'];
                 }
             });
+        }   
+
+        function markAsMatched(id) {
+            const cards = document.querySelectorAll('.card');
+
+            cards.forEach(function(card) {
+                if (card.id === id) {
+                    card.classList = ['card disabledcard click'];
+                }
+            });
+
+            console.log('WINNER WINNER');
+            document.querySelector('.win-popup').style.visibility = 'visible';
+
+            if (id == 0) {
+                document.querySelector('.animal-link').setAttribute('href', "/chicken.html");
+            } else if (id == 1) {
+                document.querySelector('.animal-link').setAttribute('href', "/cow.html");
+            } else {
+                document.querySelector('.animal-link').setAttribute('href', "/pig.html");
+            }
         }
 
     }
+
+
 
     // Start Game
 

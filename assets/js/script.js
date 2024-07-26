@@ -85,8 +85,10 @@ document.addEventListener('DOMContentLoaded', function() {
         return card;
     }
 
+    // Check if user has clicked a matched card
+
     function checkIfCardsMatch(card) {
-        // Check if user has clicked a matched card
+        
         if (card.classList.contains('disabledcard') || card.classList.contains('click')) {
             return;
         }
@@ -128,6 +130,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        // Flipping the cards back to the barn image
+
         function unflippingCard () {
             tempFlippedCards = [];
 
@@ -139,6 +143,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
         }   
+
+        // Marking the cards as matched and producing the win popup
 
         function markAsMatched(id) {
             const cards = document.querySelectorAll('.card');
@@ -153,11 +159,14 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.win-popup').style.visibility = 'visible';
 
             if (id == 0) {
-                document.querySelector('.animal-link').setAttribute('href', "chicken.html");
+                // document.querySelector('.animal-link').setAttribute('href', "chicken.html");
+                document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Charlie the Chicken!</p> <p>Click the button below to learn more about Charlie!</p> <button onclick="window.location.href='chicken.html'">Lets meet Charlie!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             } else if (id == 1) {
-                document.querySelector('.animal-link').setAttribute('href', "cow.html");
+                // document.querySelector('.animal-link').setAttribute('href', "cow.html");
+                document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Coco the Cow!</p> <p>Click the button below to learn more about Coco!</p> <button onclick="window.location.href='cow.html'">Lets meet Coco!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             } else {
-                document.querySelector('.animal-link').setAttribute('href', "pig.html");
+                // document.querySelector('.animal-link').setAttribute('href', "pig.html");
+                document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Piper the Pig!</p> <p>Click the button below to learn more about Piper!</p> <button onclick="window.location.href='pig.html'">Lets meet Piper!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             }
         }
 

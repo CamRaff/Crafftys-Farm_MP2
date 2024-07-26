@@ -125,17 +125,29 @@ On the information pages, I decided it would be a good idea to have some realist
 
 Left image belongs to [Engin Ukyuart](https://www.pexels.com/@enginakyurt/). Right image belongs to [Rachel Vine](https://www.pexels.com/@camerashy/).
 
+Facts 1 and 2 were found on the website [BCSPA](https://spca.bc.ca/news/fun-facts-about-chickens/).
+
+Fact 3 was found on the website [The Humane League](https://thehumaneleague.org.uk/article/10-facts-about-chickens-you-may-not-know?gad_source=1&gclid=EAIaIQobChMI9IaXwYDFhwMVmnR_AB0fLC0jEAAYASAAEgKMOfD_BwE).
+
 #### Cow
 
 <img src="assets/images/animals/realistic/real-cow1.webp" alt="first image of a cow" height="200"> <img src="assets/images/animals/realistic/real-cow-2.webp" alt="second image of a cow" height="200">
 
 Left image belongs to [Julie Aagaard](https://www.pexels.com/@julieaagaard/). Right image belongs to [Tobi](https://www.pexels.com/@pripicart/).
 
+Facts 1 and 2 were found on the website [The Humane League](https://thehumaneleague.org.uk/article/10-facts-about-cows-that-you-might-not-know?gad_source=1&gclid=EAIaIQobChMIl5b34OrEhwMVKqhoCR0hNhc-EAAYAiAAEgKgVvD_BwE).
+
+Fact 3 was found on the website [BBC](https://www.bbc.co.uk/programmes/articles/cfKXgwHG4YqR7DfGBW6GsQ/nine-udderly-fascinating-facts-about-cows).
+
 #### Pig
 
 <img src="assets/images/animals/realistic/real-pig1.webp" alt="first image of a pig" height="200"> <img src="assets/images/animals/realistic/real-pig2.webp" alt="second image of a pig" height="200">
 
 Left image belongs to [Brett Sayles](https://www.pexels.com/@brett-sayles/). Right image belongs to [Barbara Barbosa](https://www.pexels.com/@barbara-barbosa-2859157/).
+
+Facts 1 and 2 were found on the website [Animal Equality](https://animalequality.org.uk/blog/2021/03/10/five-extraordinary-facts-about-pigs/?gad_source=1&gclid=EAIaIQobChMI-MrauYjFhwMVBnR_AB2AqDVzEAAYASAAEgJUY_D_BwE).
+
+Fact 3 was found on the website [Peta](https://www.peta.org.uk/blog/10-things-you-never-knew-about-pigs-with-photos/?utm_source=PETA%20UK::Google&utm_medium=Ad&utm_campaign=1120::gen::PETA%20UK::Google::s-grant-awa-dsa::::searchad&gad_source=1&gclid=EAIaIQobChMI-MrauYjFhwMVBnR_AB2AqDVzEAAYAiAAEgI8xvD_BwE).
 
 ### Favicons
 

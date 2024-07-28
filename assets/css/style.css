@@ -148,7 +148,7 @@ footer {
     overflow: hidden;
     text-align: center;
     align-self: center;
-    position: absolute;
+    /* position: absolute; */
     bottom:0;
     flex-shrink:0;
 }
@@ -605,6 +605,7 @@ b {
     justify-content: center;
     font-size: 2rem;
 }
+
 .win-popup-inner p {
     text-align: center;
     margin: 10px;
@@ -639,34 +640,99 @@ b {
     cursor: pointer;
 }
 
+/* Game area responsiveness */
 
+@media screen and (max-width: 1050px) {
 
-/* mobile */
+    main {
+        width: 100%;
+    }
+
+    .gamewrapper {
+        margin-top: 20px;
+    }
+    .gamearea-div {
+        width: 1000px;
+        height: 30rem;
+        margin: 0 auto;
+    }
+    
+    .animal-cards {
+        grid-template-columns:repeat(3, 80%);
+        grid-template-rows:repeat(2, 45%);
+        width: 400px;
+        height: 650px;
+    }
+    
+    .card {
+        padding:0;
+    }
+}
 
 @media screen and (max-width: 770px) {
 
     main {
         width: 100%;
     }
+
+    .gamewrapper {
+        margin-top: 20px;
+    }
     .gamearea-div {
-        width: auto;
-        height: 44rem;
+        width: 500px;
+        height: 42rem;
         margin: 0 auto;
     }
     
     
     .animal-cards {
-        grid-template-columns:repeat(2, 50%);
-        grid-template-rows:repeat(3, 33.3%);
-        width: 400px;
-        height: 600px;
+        grid-template-columns:repeat(2, 81%);
+        grid-template-rows:repeat(3, 40%);
+        width: 300px;
+        height: 500px;
     }
     
     .card {
         padding: 0;
     }
-    
-    footer {
-        position: relative;
+
+    .win-popup-inner {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .win-popup-inner button {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 470px) {
+    .animal-cards {
+        grid-template-columns:repeat(2, 48%);
+        grid-template-rows:repeat(3, 33.3%);
+        width: 400px;
+        height: 600px;
+    }
+
+    .gamearea-div {
+        width: 400px;
+        height: 35rem;
+        margin: 0 auto;
+    }
+
+    .gamewrapper img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .win-popup-inner {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .win-popup-inner button {
+        font-size: 1.3rem;
     }
 }

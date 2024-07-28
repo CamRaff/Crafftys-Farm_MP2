@@ -638,3 +638,35 @@ b {
     color: rgb(94, 244, 114);
     cursor: pointer;
 }
+
+
+
+/* mobile */
+
+@media screen and (max-width: 770px) {
+
+    main {
+        width: 100%;
+    }
+    .gamearea-div {
+        width: auto;
+        height: 44rem;
+        margin: 0 auto;
+    }
+    
+    
+    .animal-cards {
+        grid-template-columns:repeat(2, 50%);
+        grid-template-rows:repeat(3, 33.3%);
+        width: 400px;
+        height: 600px;
+    }
+    
+    .card {
+        padding: 0;
+    }
+    
+    footer {
+        position: relative;
+    }
+}

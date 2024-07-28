@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Setting the dimensions of the barn image
 
-        const cardFrontImageDimensions = { width:'200px', height: '200px' };
+        //const cardFrontImageDimensions = { width:'200px', height: '200px' };
 
-        Object.assign(cardFrontImage.style, cardFrontImageDimensions);
+        //Object.assign(cardFrontImage. , cardFrontImageDimensions);
 
         return card;
     }

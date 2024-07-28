@@ -711,14 +711,14 @@ b {
 @media screen and (max-width: 470px) {
     .animal-cards {
         grid-template-columns:repeat(2, 48%);
-        grid-template-rows:repeat(3, 33.3%);
+        grid-template-rows:repeat(3, 29%);
         width: 400px;
         height: 600px;
     }
 
     .gamearea-div {
         width: 400px;
-        height: 35rem;
+        height: 28rem;
         margin: 0 auto;
     }
 

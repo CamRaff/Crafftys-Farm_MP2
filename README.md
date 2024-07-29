@@ -36,6 +36,9 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 
         - [LXGW](#lxgw-wenkai-mono-tc)
 
+    - [Features](#features)
+
+
 ---
 
 # User Experience (UX)
@@ -131,7 +134,7 @@ Fact 3 was found on the website [The Humane League](https://thehumaneleague.org.
 
 #### Cow
 
-<img src="assets/images/animals/realistic/real-cow1.webp" alt="first image of a cow" height="200"> <img src="assets/images/animals/realistic/real-cow-2.webp" alt="second image of a cow" height="200">
+<img src="assets/images/animals/realistic/real-cow1.webp" alt="first image of a cow" height="200"> <img src="assets/images/animals/realistic/real-cow2.webp" alt="second image of a cow" height="200">
 
 Left image belongs to [Julie Aagaard](https://www.pexels.com/@julieaagaard/). Right image belongs to [Tobi](https://www.pexels.com/@pripicart/).
 
@@ -151,7 +154,7 @@ Fact 3 was found on the website [Peta](https://www.peta.org.uk/blog/10-things-yo
 
 ### Favicons
 
-The title image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 
+The browser tab image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 
 
 ## Fonts
 
@@ -170,3 +173,7 @@ I chose the font [Margarine](https://fonts.google.com/specimen/Margarine?preview
 <img src="assets/images/lxgw.png" alt="the font LXGW WenKai Mono TC, acquired from Google Fonts" height="100">
 
 I chose the font [LXGW WenKai Mono TC](https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the body text as it is a bit easier to read over long periods than Margarine, yet it still has a soft and rounded feel.
+
+## Features
+
+

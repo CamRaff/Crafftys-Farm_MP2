@@ -148,7 +148,6 @@ footer {
     overflow: hidden;
     text-align: center;
     align-self: center;
-    /* position: absolute; */
     bottom:0;
     flex-shrink:0;
 }
@@ -315,7 +314,6 @@ footer a:hover {
 
 .animalinfo {
     background-color: rgba(0, 150, 255, .7);
-    /* margin: 25px; */
     height:370px;
     width:33%;
     border-radius: 10px;
@@ -519,16 +517,11 @@ b {
 .gamewrapper {
     display:flex;
     justify-content: center;
-    /* height: 100%; */
-    /* width: 100%; */
 }
 
 .gamewrapper img {
     width: 200px;
-    /* height: 200px; */
     border-radius: 10px;
-    /* margin:  */
-    /* margin: 0 auto; */
     cursor: pointer;
 }
 
@@ -628,10 +621,7 @@ b {
     width: 50%;
     border-radius: 10px;
     margin-top: 20px;
-    /* position:relative; */
-
     align-self: center;
-    /* text-align: center; */
 }
 
 .win-popup-inner button:hover {
@@ -640,7 +630,7 @@ b {
     cursor: pointer;
 }
 
-/* Game area responsiveness */
+/* Responsive styling for game area */
 
 @media screen and (max-width: 1050px) {
 
@@ -710,15 +700,15 @@ b {
 
 @media screen and (max-width: 470px) {
     .animal-cards {
-        grid-template-columns:repeat(2, 39%);
+        grid-template-columns:repeat(2, 48%);
         grid-template-rows:repeat(3, 27%);
-        width: 500px;
+        width: 400px;
         height: 600px;
     }
 
     .gamearea-div {
         width: 400px;
-        height: 37rem;
+        height: 28rem;
         margin: 0 auto;
     }
 

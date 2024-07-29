@@ -43,12 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
         cardFrontImage.alt = "Barn Image";
         cardFront.appendChild(cardFrontImage);
 
-        // Setting the dimensions of the barn image
-
-        //const cardFrontImageDimensions = { width:'200px', height: '200px' };
-
-        //Object.assign(cardFrontImage. , cardFrontImageDimensions);
-
         return card;
     }
 
@@ -156,16 +150,16 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             console.log('WINNER WINNER');
+
+            // Loading the win popup
+
             document.querySelector('.win-popup').style.visibility = 'visible';
 
             if (id == 0) {
-                // document.querySelector('.animal-link').setAttribute('href', "chicken.html");
                 document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Charlie the Chicken!</p> <p>Click the button below to learn more about Charlie!</p> <button onclick="window.location.href='chicken.html'">Lets meet Charlie!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             } else if (id == 1) {
-                // document.querySelector('.animal-link').setAttribute('href', "cow.html");
                 document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Coco the Cow!</p> <p>Click the button below to learn more about Coco!</p> <button onclick="window.location.href='cow.html'">Lets meet Coco!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             } else {
-                // document.querySelector('.animal-link').setAttribute('href', "pig.html");
                 document.querySelector('.win-popup-inner').innerHTML = `<h2>Congratulations!</h2> <p>You have found the Piper the Pig!</p> <p>Click the button below to learn more about Piper!</p> <button onclick="window.location.href='pig.html'">Lets meet Piper!</button> <button onclick="window.location.href='game.html'">Back to the Farm!</button>`;
             }
         }
@@ -188,7 +182,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             animalCards.appendChild(cardWithAnimal);
-            // animalCards.appendChild(addAnimalToCard(card));
         }
     }
 

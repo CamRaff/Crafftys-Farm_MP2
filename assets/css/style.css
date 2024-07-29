@@ -710,21 +710,21 @@ b {
 
 @media screen and (max-width: 470px) {
     .animal-cards {
-        grid-template-columns:repeat(2, 48%);
-        grid-template-rows:repeat(3, 29%);
-        width: 400px;
+        grid-template-columns:repeat(2, 39%);
+        grid-template-rows:repeat(3, 27%);
+        width: 500px;
         height: 600px;
     }
 
     .gamearea-div {
         width: 400px;
-        height: 28rem;
+        height: 37rem;
         margin: 0 auto;
     }
 
     .gamewrapper img {
-        width: 120px;
-        height: 120px;
+        width: 130px;
+        height: 130px;
     }
 
     .win-popup-inner {

@@ -68,21 +68,21 @@ This is the initial mock-up for the three different kinds of pages on the site w
 
 - #### Home
 
-![dektop-home-wireframe](assets/images/wireframes/home.png)
+![dektop-home-wireframe](assets/images/readme-images/wireframes/home.png)
 
 For this page, I wanted to keep the design simple with a main navigation bar and a footer which will be displayed the same across all pages. As this is just the home/landing page, I didn't want to flood the user with too much information. There will be a brief introduction to the site displayed in the center of the page, and a button which will take you to the interactive/game area. The button to access the interactive/game area will also be the same as one of the links in the navigation bar, for ease of access. 
 
 - #### Game Area
 
-![game-area](assets/images/wireframes/game-area.png)
+![game-area](assets/images/readme-images/wireframes/game-area.png)
 
-![game-area-congratulations](assets/images/wireframes/game-area-congratulations.png)
+![game-area-congratulations](assets/images/readme-images/wireframes/game-area-congratulations.png)
 
 This is where most of the interactivity will be encountered. This page will display something similar to a memory game, however it is not actually a game, so there will be no score or anything being counted. The purpose of finding a match is to hear the sounds of the animal which you've found the matching pair for, and to have the user then be able to access the information page available for that animal. Upon finding a match, you will see in the 2nd image that a box will appear, congratulating you and giving you the option to continue on to the information page, or return back to the interactive area. 
 
 - #### Info Page
 
-![info-page](assets/images/wireframes/animal-info.png)
+![info-page](assets/images/readme-images/wireframes/animal-info.png)
 
 This is where the user will find the information page. Here, there will be images of the animal they correctly matched the pair for, and also a body of text containing the information about that animal. 
 
@@ -92,11 +92,11 @@ As I decided to keep the home page relatively basic, that will be displayed the 
 
 - #### Game Area
 
-<img src="assets/images/wireframes/game-area-mobile.png" alt="wireframe for the mobile version of the game area" height="600">
+<img src="assets/images/readme-images/wireframes/game-area-mobile.png" alt="wireframe for the mobile version of the game area" height="600">
 
 - #### Info Page
 
-<img src="assets/images/wireframes/animal-info-mobile.png" alt="wireframe for the mobile version of the info page" height="600">
+<img src="assets/images/readme-images/wireframes/animal-info-mobile.png" alt="wireframe for the mobile version of the info page" height="600">
 
 The mobile versions once more don't change much, it is mostly just a shift from a horizontal display to more of a vertical display.
 
@@ -156,24 +156,58 @@ Fact 3 was found on the website [Peta](https://www.peta.org.uk/blog/10-things-yo
 
 The browser tab image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 
 
+## Colour Scheme
+
+I chose lighter colours for the website, opting for blue (#rgba(0, 150, 255, .7)) as the background for divs, navigation and footer to provide a contrast between that and the white (#white) text while also maintaining the visibility of the background behind it. I used a green (#rgb(94, 244, 114)) for highlights on hover and buttons. All of these colors were chosen as they were shades of the background, meaning the colour scheme was able to be maintained throughout and it matched the background on all pages.
+
 ## Fonts
 
-For the font on the site, I decided to go with something that was quite rounded on the edges and soft on the eyes, as it is designed for children. I didn't want the ltters and words to be too sharp. I got this idea when doing a bit of research on childrens sites and I came across the [Pepaa Pig](https://www.peppapig.com/en-us) website. 
+For the font on the site, I decided to go with something that was quite rounded on the edges and soft on the eyes, as it is designed for children. I didn't want the ltters and words to be too sharp. I got this idea when doing a bit of research on childrens sites and I came across the [Peppa Pig](https://www.peppapig.com/en-us) website. 
 
 After taking a look at the fonts available on [Google Fonts](https://fonts.google.com), I decided upon two different fonts, one to be used for headers and in the navigation bar, and one for body text. 
 
 ### Margarine
 
-<img src="assets/images/margarine.png" alt="the font Margarine, acquired from Google Fonts" height="100">
+<img src="assets/images/readme-images/margarine.png" alt="the font Margarine, acquired from Google Fonts" height="100">
 
 I chose the font [Margarine](https://fonts.google.com/specimen/Margarine?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the headers and navigation bars as it is very soft but also stands out very well.
 
 ### LXGW WenKai Mono TC
 
-<img src="assets/images/lxgw.png" alt="the font LXGW WenKai Mono TC, acquired from Google Fonts" height="100">
+<img src="assets/images/readme-images/lxgw.png" alt="the font LXGW WenKai Mono TC, acquired from Google Fonts" height="100">
 
 I chose the font [LXGW WenKai Mono TC](https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the body text as it is a bit easier to read over long periods than Margarine, yet it still has a soft and rounded feel.
 
 ## Features
 
+The project I have created for Milestone Project 2 consists of 5 pages in total, the home page, the game page, and 3 animal/information pages.
 
+- #### Home Page
+
+The home page is kept very simple, with a navigation bar at the top with a logo serving as a link back to the home page, a home link and a link to the game. There is an introduction to the site in the main body, as well as another link to the farm, prompting users to "begin your search". There is also a footer consisting of copyright information and a link to the GitHub repository. 
+
+<img src="assets/images/readme-images/home-page-desktop.png" alt="Home page on desktop" height="500">
+
+- #### Game Page
+
+The game page features the same navigation bar and footer as the home page, but differs as it features a tile flipping memory game, where the user must match 2 cards in order to progress to the animal/information pages. This page features a 3x2 grid of flippable cards on desktop screens which converts to a 2x3 grid on smaller screens. 
+
+<img src="assets/images/readme-images/game-page-desktop.png" alt="Game page on desktop" height="500">
+
+<img src="assets/images/readme-images/game-page-mobile.png" alt="Game page on mobile" height="500"><br>
+
+The tiles feature a barn as the outter and then when flipped you can see the animal card, as shown below:
+
+<img src="assets/images/readme-images/card-flipped.png" alt="Flipped card" height="400"><br>
+
+Flipping 2 of the same tiles brings up the win popup, giving you the option to proceed to the information page for the animal you've correctly matched, or to return to the farm and continue matching pairs: 
+
+<img src="assets/images/readme-images/win-popup.png" alt="Win popup" height="400">
+
+- #### Animal/Information Pages
+
+The animal/information pages are very straight forward and maintains the navigation bar from the game and home pages, with added information in the footer. On these pages there is an image, a text box with a scroll bar and another image horizontally on the page with a button to return to the farm below. This page transforms vertically on smaller screens and removes one of the images to make it a bit more pleasant for the user. As all 3 of the animal pages follow the same structure, I've only displayed one of them below.
+
+<img src="assets/images/readme-images/chicken-page-desktop.png" alt="Chicken page on desktop" height="500">
+
+<img src="assets/images/readme-images/chicken-page-mobile.png" alt="Chicken page on mobile" height="500">

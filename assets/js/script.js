@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */ 
+
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM loaded with JavaScript');
 
@@ -91,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (tempFlippedCards.length >= 2) {
             setTimeout(function() {
-                processFlippedCards();
+                // processFlippedCards();
             }, 1000);
             return;
         }

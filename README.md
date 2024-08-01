@@ -128,9 +128,13 @@ The mobile versions once more don't change much, it is mostly just a shift from 
 
 Because I wanted to have this project designed so it could be used as a way to entertain kids by their parents or teachers, I decided to go with a majority cartoon-y theme. All of the images used for the game tiles were designed by AI from [Microsoft's Copilot AI](https://copilot.microsoft.com) using prompts from myself. The background was acquired from [Freepik](https://www.freepik.com), and was designed [@brgfx](https://www.freepik.com/author/brgfx).
 
+### README Title Image
+
+The image seen at the top of the README document was created using a website called [Am I Responsive](https://ui.dev/amiresponsive).
+
 ### Background
 
-<img src="assets/images/background.webp" alt="the image used as the background of the website" height="400">
+<img src="assets/images/background.webp" alt="the image used as the background of the website" height="400"><br>
 
 In keeping with the farm theme, I wanted something that was simple but also visually appealing, and would look nice as a background. I found this image while searching for images of empty fields and thought the addition of the fence was great, so I decided to use this as the background for the entire site.
 
@@ -292,3 +296,16 @@ In order to clone this repository, you must:
 4. Select whether you would like to clone with HTTPS, SSH or GitHub CLI, then copy the given link.
 5. Open the terminal in your desired IDE, then select your desired location for the cloned directory.
 6. Type 'git clone' into the terminal, paste the link you copied in step 4 and press enter.
+
+---
+
+# Testing
+
+## Automated
+
+### W3 Validator - HTML
+
+In order to conduct testing on the HTML of my website, I used the [W3C Validator](https://validator.w3.org/). The results for the testing of all of the HTML documents are below.
+
+- #### Home
+

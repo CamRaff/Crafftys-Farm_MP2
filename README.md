@@ -58,7 +58,15 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 
     - [Automated](#automated)
 
-        - [W3 Validator](#w3-validator)
+        - [W3C Validator - HTML](#w3c-validator---html)
+
+        - [W3C Validator - CSS](#w3c-validator---css)
+
+        - [JSHint](#jshint)
+
+        - [Lighthouse](#lighthouse)
+
+    - [Manual](#manual)
 
 
 ---
@@ -246,6 +254,12 @@ The animal/information pages are very straight forward and maintains the navigat
 
 <img src="assets/images/readme-images/chicken-page-mobile.png" alt="Chicken page on mobile" height="500">
 
+- #### 404 Page
+
+The 404 error page has the exact same layout and structure as the home page, with slightly different content. 
+
+<img src="assets/images/readme-images/404-page-desktop.png" alt="404 page on desktop" height="500">
+
 ## Development
 
 For this project, as per the requirements, the languages I used to create this website were HTML, CSS and Javascript. 
@@ -260,6 +274,8 @@ For this project, as per the requirements, the languages I used to create this w
 - I used [Google Fonts](https://fonts.google.com/) to evaluate and decide which fonts to use throughout the website.
 - I used [Font Awesome](https://fontawesome.com/) to acquire the icons used for the GitHub icon in the footer.
 - I used [Google Dev Tools](https://developer.chrome.com/docs/) as a means of testing the website throughout its production.
+- I used [Am I Responsive](https://ui.dev/amiresponsive) to create the main image atop the ReadMe.
+- I used [Ezgif](https://ezgif.com/video-to-gif) to create the gifs used in the ReadMe.
 
 ---
 
@@ -303,9 +319,235 @@ In order to clone this repository, you must:
 
 ## Automated
 
-### W3 Validator - HTML
+### W3C Validator - HTML
 
 In order to conduct testing on the HTML of my website, I used the [W3C Validator](https://validator.w3.org/). The results for the testing of all of the HTML documents are below.
 
-- #### Home
+- #### Home
 
+<img src="assets/images/readme-images/w3-validator/w3-home.png" alt="W3C test for the Home page" height="200">
+
+- #### Game
+
+<img src="assets/images/readme-images/w3-validator/w3-game.png" alt="W3C test for the Game page" height="200">
+
+- #### Chicken
+
+<img src="assets/images/readme-images/w3-validator/w3-chicken.png" alt="W3C test for the Chicken page" height="200">
+
+- #### Pig
+
+<img src="assets/images/readme-images/w3-validator/w3-pig.png" alt="W3C test for the Pig page" height="200">
+
+- #### Cow
+
+<img src="assets/images/readme-images/w3-validator/w3-cow.png" alt="W3C test for the Cow page" height="200">
+
+- #### 404
+
+<img src="assets/images/readme-images/w3-validator/w3-404.png" alt="W3C test for the 404 page" height="200">
+<br>
+<br>
+As you can see from the above images, there were no issues in the HTML for any of the pages in the site.
+
+### W3C Validator - CSS
+
+To conduct testing on the CSS within my website, I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The results for the tests can be seen below.
+
+- #### Initial
+
+<img src="assets/images/readme-images/w3-validator/w3-css-initial.png" alt="Initial CSS test" height="200">
+
+- #### Final
+
+<img src="assets/images/readme-images/w3-validator/w3-css-final.png" alt="Final CSS test" height="200">
+<br>
+<br>
+The issues flagged in the initial test were easy to rectify. I had missed the 'px' from the width, so adding this fixed the first issue. For the second issue it turned out that the line of code that was flagged was actually unnecessary, so that was deleted, thus fixing the 2nd issue.
+
+### JSHint
+
+To test the Javascript for any issues or function problems, I passed my code through [JSHint](https://jshint.com/). The results were as follows:
+
+<img src="assets/images/readme-images/jshint.png" alt="JSHint test results" height="300"><br>
+
+After a conversation with my mentor regarding this test and the warning flagged, it was determined that in order to rectify this warning I would require an IIFE (Immediately Invoked Function Expression) which would actually prove to be more semantically confusing... So I left this as it was for the final product.
+
+### Lighthouse
+
+I ran each of my three pages though Lighthouse on Google Dev Tools. Lighthouse tests 4 main areas of your site, them being its Performance, its Accessibility, how well it conforms with Best Practices and also how well it would perform when being searched for in a browser, its Search Engine Optimization (SEO). The following results were acquired when the initial tests were ran:
+
+#### Home
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/home-lighthouse-d.png" alt="Lighthouse Home page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/home-lighthouse-m.png" alt="Lighthouse Home page results on mobile" height="200">
+
+#### Game
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/game-lighthouse-d.png" alt="Lighthouse Game page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/game-lighthouse-m.png" alt="Lighthouse Game page results on mobile" height="200">
+
+#### Chicken
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/chicken-lighthouse-d.png" alt="Lighthouse Chicken page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/chicken-lighthouse-m.png" alt="Lighthouse Chicken page results on mobile" height="200">
+
+#### Pig
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/pig-lighthouse-d.png" alt="Lighthouse Pig page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/pig-lighthouse-m.png" alt="Lighthouse Pig page results on mobile" height="200">
+
+#### Cow
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/cow-lighthouse-d.png" alt="Lighthouse Cow page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/cow-lighthouse-m.png" alt="Lighthouse Cow page results on mobile" height="200">
+
+#### 404
+
+- ##### Desktop
+
+<img src="assets/images/readme-images/lighthouse/desktop/404-lighthouse-d.png" alt="Lighthouse 404 page results on desktop" height="200">
+
+- ##### Mobile
+
+<img src="assets/images/readme-images/lighthouse/mobile/404-lighthouse-m.png" alt="Lighthouse 404 page results on mobile" height="200">
+
+---
+
+## Manual
+
+### User Stories
+
+**First Time Visitor Goals**
+
+| Goals | Outcome |
+| ----- | ----- |
+| I want to find something I can use to keep my kids entertained. | I gave my children this game while they were in the car and they very much enjoyed it. |
+| I want something that is fun, yet has the ability to teach my kids something they may not have known before. | My children learned some very interesting facts about chickens, cows and pigs! |
+
+**Returning and Frequent Visitor Goals**
+
+| Goals | Outcome |
+| ----- | ----- |
+| I want something I know is going to entertain the kids. | The kids love playing this game and often request it during car journeys etc. |
+
+### Site Testing
+
+This site was built using VSCode as my chosen IDE. All of the development was done on the MacBook Air.
+
+The devices I used to test my site throughout development and upon completion are:
+
+- Philips 1080p Monitor.
+
+- MacBook Air 15", M2.
+
+- Mobile - Apple iPhone 15 Pro Max.
+
+I tested the site using three different browsers on both the laptop and mobile, them being Safari, Google Chrome, and Mozilla Firefox. The site worked as expected on all three browsers on both platforms, and the desired styling was displayed. I made use of my partners Android mobile (Google Pixel 6) to check on all three browsers how the site functioned and everything worked as expected.
+
+### Feature Testing
+
+#### Header and Footer
+
+The header and footer of the site remained the same across all 6 pages. The header consists of a logo which also serves as a home button, a link to the home page and a link to the game page (The Farm). Manual testing of these features were as follows:
+
+**Header**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Craffty's farm title | Navigate back to home page | Clicked on all pages | Refreshed on the Home page and returned to the Home page on all others |
+| Navigation links | Take the user to the desired page | Clicked on all pages | Went to the desired page |
+| Nav hover effect | Menu items will change color | Hovered over each option | Color changed as desired |
+| Active effect | The page you're on will be underlined | Accessed each page | The page you're currently on is underlined in the Nav bar |
+
+<img src="assets/images/readme-images/nav-hover-gif.gif" alt="Hover effect on navigation bar" height="100"><br><br>
+
+**Footer**
+
+| Feature | Expectation | Test Performed | Outcome |
+| ----- | ----- | ----- | ----- |
+| Footer link | Take you to GitHub | Clicked link on all pages | Taken to the GitHub |
+| Footer hover | Icon will change color | Hovered over the icon | Icon color changed as desired | 
+
+<img src="assets/images/readme-images/footer-hover-gif.gif" alt="Hover effect on footer" height="100"><br><br>
+
+**Home**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Button link to game page | Take the user to the desired page | Clicked button | Went to the desired page |
+| Button hover effect | Button becomes highlighted | Hovered over each option | Color changed as desired |
+
+<img src="assets/images/readme-images/home-hover-gif.gif" alt="Hover effect on home page" height="200"><br><br>
+
+**Game**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Random memory game | Game tiles randomise on page load | Reloaded the page | Animal images were placed randomly behind the barn image every time |
+| Cards flip to show animal | Upon click, a the barn image will rotate to show an animal image | Clicked on barn images | Animal Images were shown |
+| Function stopping more than two cards being flipped | You should only be able to flip two cards over at one time | Clicked three cards in quick succession | The third card failed to flip |
+| Matching two | A win popup will appear when you match two animals, presenting the option to learn more about that animal or return to the game | Played game until two animals matched | Win popup appeared |
+| Buttons hover effect in popup | Buttons are highlighted | Hovered over each button | Buttons changed color as expected | 
+| Button link to animal/info page | Taken to new page | Clicked button | Taken to the page of the animal I matched |
+| Button link to game page | Go back to game | Clicked button | Taken back to the game |
+
+<br>Below you can see the cards flipping to display the animals:
+
+<img src="assets/images/readme-images/card-click.gif" alt="Card flipping gif" height="300">
+
+<br>Below you can see the third card failing to flip:
+
+<img src="assets/images/readme-images/three-card-click.gif" alt="Attempting to flip more than two cards" height="300">
+
+<br>Below you can see the win popup appear following successfully matching two animals, along with the hover effects on the buttons:
+
+<img src="assets/images/readme-images/match-winpopup.gif" alt="gif showing the win popup" height="300"><br><br>
+
+**Animal/Info**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Scroll box with facts | User can scroll down to learn more about the animal they found | Moused over fact box and scrolled | Scrolled successfully and saw more facts |
+| Button link to game page | Go back to game | Clicked button | Taken back to the game|
+| Buttons hover effect | Buttons is highlighted | Hovered over button | Button changed color as expected | 
+
+<br>All animal/information pages contain the same styling so I have only shown one of the 3, but below you will see the scroll and hover effects:
+
+<img src="assets/images/readme-images/animal-scroll-hover.gif" alt="scroll and hover effects on the information page" height="300"><br><br>
+
+**404**
+
+| Feature | Expectation | Test Performed | Outcome | 
+| ----- | ----- | ----- | ----- | 
+| Button link to home page | Taken from 404 to home page | Clicked link | Taken to the home page |
+| Buttons hover effect | Buttons is highlighted | Hovered over button | Button changed color as expected | 
+
+<br>Below you can see the hover effect on the 404 page:
+
+<img src="assets/images/readme-images/404-hover.gif" alt="hover effect on 404" height="200">

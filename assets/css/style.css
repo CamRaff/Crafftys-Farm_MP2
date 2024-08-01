@@ -579,7 +579,6 @@ b {
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    display:hidden;
 }
 
 .card-revealed {
@@ -661,11 +660,10 @@ b {
     }
 
     .gamewrapper {
-        /* width: 100vh; */
         margin-top: 20px;
     }
     .gamearea-div {
-        width: 1000;
+        width: 1000px;
         height: 30em;
         margin: 0 auto;
     }

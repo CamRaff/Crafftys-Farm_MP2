@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (tempFlippedCards.length >= 2) {
             setTimeout(function() {
-                // processFlippedCards();
             }, 1000);
             return;
         }

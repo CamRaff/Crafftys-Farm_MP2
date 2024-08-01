@@ -1,6 +1,6 @@
 # CamRaff - Milestone Project 2 - Craffty's Farm
 
-![displays]()
+![displays](assets/images/readme-images/responsive-screens.png)
 
 Here is a link to the deployed site: [Craffty's Farm](https://camraff.github.io/Crafftys-Farm_MP2/ "Craffty's Farm")
 
@@ -37,6 +37,28 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
         - [LXGW](#lxgw-wenkai-mono-tc)
 
     - [Features](#features)
+
+        - [Home Page](#home-page)
+
+        - [Game Page](#game-page)
+
+        - [Animal/Info Page](#animalinformation-pages)
+
+    - [Deployment and Local Development](#deployment-and-local-development)
+
+        - [Deployment](#deployment)
+
+        - [Local Development](#local-development)
+
+            - [Fork](#fork)
+
+            - [Clone](#clone)
+
+- [Testing](#testing)
+
+    - [Automated](#automated)
+
+        - [W3 Validator](#w3-validator)
 
 
 ---
@@ -100,6 +122,8 @@ As I decided to keep the home page relatively basic, that will be displayed the 
 
 The mobile versions once more don't change much, it is mostly just a shift from a horizontal display to more of a vertical display.
 
+---
+
 ## Images
 
 Because I wanted to have this project designed so it could be used as a way to entertain kids by their parents or teachers, I decided to go with a majority cartoon-y theme. All of the images used for the game tiles were designed by AI from [Microsoft's Copilot AI](https://copilot.microsoft.com) using prompts from myself. The background was acquired from [Freepik](https://www.freepik.com), and was designed [@brgfx](https://www.freepik.com/author/brgfx).
@@ -156,9 +180,13 @@ Fact 3 was found on the website [Peta](https://www.peta.org.uk/blog/10-things-yo
 
 The browser tab image used in this site were acquired using the [Favicon](https://favicon.io/favicon-converter/). 
 
+---
+
 ## Colour Scheme
 
 I chose lighter colours for the website, opting for blue (#rgba(0, 150, 255, .7)) as the background for divs, navigation and footer to provide a contrast between that and the white (#white) text while also maintaining the visibility of the background behind it. I used a green (#rgb(94, 244, 114)) for highlights on hover and buttons. All of these colors were chosen as they were shades of the background, meaning the colour scheme was able to be maintained throughout and it matched the background on all pages.
+
+---
 
 ## Fonts
 
@@ -177,6 +205,8 @@ I chose the font [Margarine](https://fonts.google.com/specimen/Margarine?preview
 <img src="assets/images/readme-images/lxgw.png" alt="the font LXGW WenKai Mono TC, acquired from Google Fonts" height="100">
 
 I chose the font [LXGW WenKai Mono TC](https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC?preview.text=Welcome%20to%20Craffys%20Farm&preview.layout=grid) for the body text as it is a bit easier to read over long periods than Margarine, yet it still has a soft and rounded feel.
+
+---
 
 ## Features
 
@@ -211,3 +241,54 @@ The animal/information pages are very straight forward and maintains the navigat
 <img src="assets/images/readme-images/chicken-page-desktop.png" alt="Chicken page on desktop" height="500">
 
 <img src="assets/images/readme-images/chicken-page-mobile.png" alt="Chicken page on mobile" height="500">
+
+## Development
+
+For this project, as per the requirements, the languages I used to create this website were HTML, CSS and Javascript. 
+
+### Libraries, Websites and Programs 
+
+- I used [VSCode](https://code.visualstudio.com) as my IDE of choice. 
+- I used [Git](https://git-scm.com/) for version control.
+- I used [GitHub](https://github.com/) to commit and store all files relating to the project.
+- I used [Balsamiq](https://balsamiq.com/) to produce the above wireframes.
+- I used [Favicon](https://favicon.io/) to produce the favicon used in the title.
+- I used [Google Fonts](https://fonts.google.com/) to evaluate and decide which fonts to use throughout the website.
+- I used [Font Awesome](https://fontawesome.com/) to acquire the icons used for the GitHub icon in the footer.
+- I used [Google Dev Tools](https://developer.chrome.com/docs/) as a means of testing the website throughout its production.
+
+---
+
+## Deployment and Local Development
+
+### Deployment
+
+This site is available for deployment via GitHub Pages. In order to deploy this site, you must:
+
+1. Log in to Github (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/Crafftys-Farm_MP2>
+3. Click the "Settings" button above the project name.
+4. Select "Pages" from the navigation bar at the left of the screen.
+5. From the source dropdown, select "Deploy from a branch", and then "main".
+6. The site is now deployed. This may take a few moments, but upon completion you should be able to acquire the link and visit the site via the top of GitHub Pages.
+
+### Local Development
+
+#### Fork
+
+In order to Fork this repository, you must:
+
+1. Log in to GitHub (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/Crafftys-Farm_MP2>
+3. Click the "Fork" button on the right, on the same line as the project name.
+
+#### Clone
+
+In order to clone this repository, you must:
+
+1. Log in to GitHub (or sign up).
+2. Go to the repository for this project - <https://github.com/CamRaff/Crafftys-Farm_MP2>
+3. Click on the "Code" button above the number of commits. 
+4. Select whether you would like to clone with HTTPS, SSH or GitHub CLI, then copy the given link.
+5. Open the terminal in your desired IDE, then select your desired location for the cloned directory.
+6. Type 'git clone' into the terminal, paste the link you copied in step 4 and press enter.

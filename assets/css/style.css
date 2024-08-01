@@ -134,6 +134,24 @@ header a {
     }
 }
 
+@media screen and (max-width: 380px) {
+    #logo {
+        text-align: center;
+        font-size: 1.5rem;
+    }    
+
+    #menu {
+        text-align: center;
+        float: none;
+        margin-top: 20px;
+    }
+
+    #menu li {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}
+
 /* Footer styling */
 
 footer {
@@ -642,11 +660,12 @@ b {
     }
 
     .gamewrapper {
+        /* width: 100vh; */
         margin-top: 20px;
     }
     .gamearea-div {
-        width: 1000px;
-        height: 30rem;
+        width: 1000;
+        height: 30em;
         margin: 0 auto;
     }
     
@@ -726,6 +745,43 @@ b {
     }
 
     .win-popup-inner button {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .animal-cards {
+        grid-template-columns:repeat(2, 48%);
+        grid-template-rows:repeat(3, 27%);
+        width: 300px;
+        height: 500px;
+    }
+
+    .gamearea-div {
+        width: 300px;
+        height: 29rem;
+        margin: 0 auto;
+    }
+
+    .gamewrapper img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .win-popup-inner {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .win-popup-inner button {
+        font-size: 1.3rem;
+    }
+    
+    .win-popup-inner h2 {
+        font-size: 1.5rem;
+    }
+
+    .win-popup-inner p {
         font-size: 1.3rem;
     }
 }

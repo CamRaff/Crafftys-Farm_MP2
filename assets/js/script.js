@@ -27,11 +27,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const cardFront = document.createElement('div');
         cardFront.classList.add('card-front');
+        cardFront.tabIndex='0';
 
         const cardRevealed = document.createElement('div');
         cardRevealed.classList.add('card-revealed');
 
-        
+        // Making the cards accessible for keyboard users
+
+        cardFront.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                checkIfCardsMatch(card);
+                card.classList.add('click');
+            }
+        });
+
+
         cardInner.appendChild(cardRevealed);
 
         card.appendChild(cardInner);
@@ -44,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         cardFrontImage.src = 'assets/images/barn.webp';
         cardFrontImage.alt = "Barn Image";
         cardFront.appendChild(cardFrontImage);
+
 
         return card;
     }

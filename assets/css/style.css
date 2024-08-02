@@ -738,9 +738,13 @@ b {
         height: 130px;
     }
 
+    .win-popup-inner h2{
+        font-size: 1.8rem;
+    }
+
     .win-popup-inner {
         width: 80%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .win-popup-inner button {
@@ -769,7 +773,6 @@ b {
 
     .win-popup-inner {
         width: 80%;
-        font-size: 1.5rem;
     }
 
     .win-popup-inner button {

@@ -68,6 +68,8 @@ For my second MilestoneProject on my course through Code Institute via UCP (Univ
 
     - [Manual](#manual)
 
+- [Credits](#credits)
+
 
 ---
 
@@ -485,6 +487,8 @@ The header and footer of the site remained the same across all 6 pages. The head
 | Nav hover effect | Menu items will change color | Hovered over each option | Color changed as desired |
 | Active effect | The page you're on will be underlined | Accessed each page | The page you're currently on is underlined in the Nav bar |
 
+<br>Below you can see the hover and active effect in the navigation bar:
+
 <img src="assets/images/readme-images/nav-hover-gif.gif" alt="Hover effect on navigation bar" height="100"><br><br>
 
 **Footer**
@@ -494,6 +498,8 @@ The header and footer of the site remained the same across all 6 pages. The head
 | Footer link | Take you to GitHub | Clicked link on all pages | Taken to the GitHub |
 | Footer hover | Icon will change color | Hovered over the icon | Icon color changed as desired | 
 
+<br>Below you can see the hover effect on the GitHub link:
+
 <img src="assets/images/readme-images/footer-hover-gif.gif" alt="Hover effect on footer" height="100"><br><br>
 
 **Home**
@@ -502,6 +508,8 @@ The header and footer of the site remained the same across all 6 pages. The head
 | ----- | ----- | ----- | ----- | 
 | Button link to game page | Take the user to the desired page | Clicked button | Went to the desired page |
 | Button hover effect | Button becomes highlighted | Hovered over each option | Color changed as desired |
+
+<br>Below you can see the hover effect on the button:
 
 <img src="assets/images/readme-images/home-hover-gif.gif" alt="Hover effect on home page" height="200"><br><br>
 
@@ -550,4 +558,24 @@ The header and footer of the site remained the same across all 6 pages. The head
 
 <br>Below you can see the hover effect on the 404 page:
 
-<img src="assets/images/readme-images/404-hover.gif" alt="hover effect on 404" height="200">
+<img src="assets/images/readme-images/404-hover.gif" alt="hover effect on 404" height="200"><br><br>
+
+# Credits
+
+##  Outside Code
+
+I got a lot of inspiration for the game code from a YouTube channel called [Coding Made Simplified](https://www.youtube.com/@codingmadesimplified), specifically their video [Create Your Own Memory Game](https://www.youtube.com/watch?v=t3cydTwfEnM).
+
+## Images
+
+All of the images in the site and ReadMe have been credited throughout this ReadMe in their respective places.
+
+## Acknowledgements
+
+I would like to give a special thanks to: 
+
+- Ronan McClelland, my mentor, for being extremely helpful and insightful. This project was only created thanks to them! 
+
+- Mark Nevison, a student on my cohort, for once again allowing me to barate them with questions and queries relentlessly.
+
+- UCP-15 Discord, for being an all round pleasant group of helpful individuals.

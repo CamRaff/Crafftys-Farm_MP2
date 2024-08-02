@@ -607,6 +607,7 @@ b {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    height:100%;
 }
 
 .win-popup-inner {
